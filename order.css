@@ -1,0 +1,173 @@
+*{
+    padding :0px;
+    margin: 0px;
+   
+}
+ 
+header{
+    background-image : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(home1.jpg);
+    height : 100vh;
+    background-size: cover;
+    background-position : center;
+}
+
+ul{
+    float : right;
+   
+}
+
+ul li{
+
+    display: inline-block;
+    margin-right: 30px;
+    font-family: sans-serif;
+    
+}
+
+.toko{
+    float : left;
+    width : 180px;
+    height : auto; 
+    font-weight : 10px;
+    
+}
+
+.toko h1{
+    padding :25px;
+    color : white;
+}
+
+
+.title{
+    position : absolute;
+    top: 30%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.title h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    color : white;
+}
+
+.nb{
+    position : absolute;
+    top: 55%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.nb p{
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+    
+}
+
+.button{
+    position : absolute;
+    top: 75%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+
+.button p{
+    padding : 15px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 12px;
+    color:chocolate;
+    font-size: 25px;
+}
+
+.button p:hover{
+    background-color: chocolate;
+    color : white;
+}
+
+.premium{
+    background-image : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(premium\ back.jpg);
+    height : 100vh;
+    background-size: cover;
+    background-position : center;
+}
+
+.how h1{
+    padding : 30px;
+    color : white;
+}
+
+.custom {
+    font-size: 30px;
+    padding : 40px;
+}
+
+.order1 {
+    
+    color : white ;
+    padding : 30px;
+    text-align: right;
+    font-size: 30px;
+    
+}
+
+.medsos{
+    padding :10px;
+}
+
+.medsos img{
+    height : 30px;
+    width : 30px;
+}
+
+.beats{
+    background-image : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(premiumback2.jpg);
+    height : 100vh;
+    background-size: cover;
+    background-position : center;
+}
+
+.access h1{
+    padding : 30px;
+    color : white;
+}
+
+.custom2{
+    font-size: 20px;
+    padding : 30px;
+    color : white;
+}
+
+.order2{
+    color : white ;
+    padding : 20px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.medsos2{
+    padding :20px;
+}
+
+.medsos2 img{
+    height : 40px;
+    width : 40px;
+}
+
+.sancolor{
+    text-align: center;
+    background-color: #F6E0CD;
+}
+
+footer{
+    padding : 20px;
+    font-family :sans-serif;
+    text-align: center;
+    background-color: #8C5B2A ;
+    color : white;
+}
